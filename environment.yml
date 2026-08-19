@@ -1,0 +1,21 @@
+name: reid
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch>=2.1
+  - torchvision>=0.16
+  - pytorch-cuda=12.1
+  - numpy
+  - pillow
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pip:
+      - ftfy
+      - regex
+      - git+https://github.com/openai/CLIP.git
+      # - ultralytics   # optional, only for scripts/extract_orientation_yolo.py

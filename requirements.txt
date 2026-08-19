@@ -1,0 +1,18 @@
+# Core deep-learning stack
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Numerics, imaging, metrics, plotting
+numpy
+Pillow
+scikit-learn
+matplotlib
+tqdm
+
+# OpenAI CLIP backbone (pulls in ftfy / regex tokenizer dependencies)
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+
+# Optional — only required by scripts/extract_orientation_yolo.py
+# ultralytics

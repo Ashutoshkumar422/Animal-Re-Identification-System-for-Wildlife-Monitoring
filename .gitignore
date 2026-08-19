@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+.conda/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Datasets (download separately — see docs/DATASETS.md) ----
+data/atrw/
+data/leopard/
+*.zip
+*.tar
+*.tar.gz
+
+# ---- Model checkpoints (created on first training run) ----
+checkpoints/
+*.pth
+*.pt
+
+# ---- Experiment outputs (created on first run) ----
+results/
+
+# ---- Manuscripts / papers (not part of the codebase) ----
+Papers/
+*.tex
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# ---- Local archive of superseded material ----
+archive/
